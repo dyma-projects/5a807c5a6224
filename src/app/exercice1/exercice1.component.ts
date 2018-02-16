@@ -12,5 +12,9 @@ export class Exercice1Component implements OnInit {
 
   ngOnInit() {
   }
-
+  
+  public updateCount(event:  number): void
+  {
+	  this.compteur=event;
+  }
 }
